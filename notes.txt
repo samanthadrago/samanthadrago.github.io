@@ -1,0 +1,31 @@
+SECTIONS:
+
+landing, with rsvp link
+
+event details
+
+relationship timeline/photos/playlist??
+
+rsvp form
+
+travel/hotel info
+
+gift info
+
+
+
+
+things to do
+
+contact info
+
+faq?
+
+
+
+FONT IDEAS:
+inconsolata / fixed-width
+
+sans-serif
+poppins
+Maven Pro
