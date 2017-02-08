@@ -29,3 +29,10 @@ inconsolata / fixed-width
 sans-serif
 poppins
 Maven Pro
+
+title/headers
+amaranth
+paytone one
+julius sans one
+
+add box-shadow to bottom of nav bar when body is scrolled
