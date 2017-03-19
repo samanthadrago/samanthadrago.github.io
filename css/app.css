@@ -64,11 +64,10 @@ div.title {
   font-size: 28px;
   color: #FFFFFF;
 }
-#rsvp {
-  padding: 20px;
-}
-#rsvp .rsvp-button {
+
+#landing > .rsvp-button {
   font-size: 28px;
+  padding: 20px;
   padding: 10px 60px;
   font-family: 'Inconsolata', sans-serif;
 }
