@@ -10,6 +10,7 @@ ul.nav {
 
 .navbar-default .navbar-nav>li>a:hover {
   color: #5B9279;
+  font-weight: bold;
 }
 
 ul.navbar-right {
@@ -24,8 +25,24 @@ ul.navbar-right {
   display: inline;
 }
 
+div.title .rsvp-button {
+
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul.nav>li>a:hover {
+  background-color: transparent;
+}
+
 .rsvp-button:hover {
-  font-size: 18px;
+  background-color: #FFFFFF;
+  color: #5B9279;
+  border-color: #5B9279;
+  border-width: 2px;
+  border-style: solid;
 }
 
 #nav {
@@ -83,4 +100,20 @@ div.title {
 .vertical-align {
   /*display: flex;*/
   /*align-items: center;*/
+}
+
+/* RSVP Page
+*/
+iframe {
+  position: fixed;
+  top: 0; right: 0;
+  bottom: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.rsvp-section {
+}
+.rsvp-form {
+  margin-top: 100px;
 }
