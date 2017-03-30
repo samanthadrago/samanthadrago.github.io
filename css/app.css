@@ -1,135 +1,141 @@
 span.icon {
-  color: #5B9279;
+    color: #A6808C;
 }
 
 ul.nav {
-  margin-right: 3%;
-  margin-left: 5%;
-  padding: 2px;
+    margin-right: 3%;
+    margin-left: 5%;
+    padding: 2px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #5B9279;
-  font-weight: bold;
+    color: #5B9279;
+    font-weight: bold;
 }
 
 ul.navbar-right {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
 .rsvp-button {
-  background-color: #5B9279;
-  color: #FFFFFF;
-  border-radius: 3em;
-  padding: 10px 20px;
-  display: inline;
-  cursor: pointer;
-}
-
-div.title .rsvp-button {
-
+    background-color: #A6808C;
+    color: #FFFFFF;
+    border-radius: 3em;
+    padding: 10px 20px;
+    display: inline;
+    cursor: pointer;
 }
 
 a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 ul.nav>li>a:hover {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .rsvp-button:hover {
-  background-color: #FFFFFF;
-  color: #5B9279;
-  border-color: #5B9279;
-  border-width: 2px;
-  border-style: solid;
+    background-color: #FFFFFF;
+    color: #A6808C;
+    border-color: #A6808C;
+    border-width: 2px;
+    border-style: solid;
 }
 
 #nav {
-  background-color: #FFFFFF;
-  opacity: .95;
-  font-family: 'Inconsolata', sans-serif;
-  font-size: 16px;
+    background-color: #FFFFFF;
+    opacity: .95;
+    font-family: 'Inconsolata', sans-serif;
+    font-size: 16px;
 }
 
 #nav-container {
-  margin-left: 5%;
+    margin-left: 5%;
 }
 
 div.navbar-header {
-  margin-right: 5%;
+    margin-right: 5%;
 }
 
 #landing {
-  background-image: url('../img/distance.JPG');
-  background-size: cover;
-  /*font-family: 'Poppins', sans-serif;*/
+    background-image: url('../img/smiley_edit.JPG');
+    background-size: cover;
+    /*font-family: 'Poppins', sans-serif;*/
 }
 
 div.title {
-  color: #FFFFFF;
-  top: 250px;
+    color: #FFFFFF;
+    top: 200px;
+}
+
+div.subtitle {
+    color: #FFFFFF;
+    top: 350px;
 }
 
 div.padding {
-  padding:20px;
+    padding:20px;
 }
 
 #landing h1 {
-  font-size: 70px;
-  text-shadow: -2px 1px #828282;
+    font-size: 80px;
 }
 
 #landing h3 {
-  /*font-family: 'Amaranth', sans-serif;*/
-  font-size: 28px;
-  color: #FFFFFF;
-}
-
-#landing > .rsvp-button {
-  font-size: 28px;
-  padding: 20px;
-  padding: 10px 60px;
-  font-family: 'Inconsolata', sans-serif;
+    font-size: 34px;
+    color: #FFFFFF;
 }
 
 #event {
-  /*background-image: url('../img/winery.jpg');*/
-  /*background-size: cover;*/
+    background-image: url('../img/winery.jpg');
+    background-size: cover;
+    padding-top: 150px;
 }
 .amaranth {
-  font-family: 'Amaranth', sans-serif;
+    font-family: 'Amaranth', sans-serif;
 }
 
 .poppins {
-  font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 #event .event-details-wrapper {
-  text-align: center;
+    text-align: center;
 }
 .image-section {
-  min-height : 800px;
+    min-height : 800px;
 }
 
 .vertical-align {
-  /*display: flex;*/
-  /*align-items: center;*/
+    /*display: flex;*/
+    /*align-items: center;*/
 }
+
+iframe#map {
+    display: none;
+}
+
+iframe#map.show {
+    display: block;
+    border: 0;
+    width: 100%;
+    height: 500px;
+    padding-left: 20px;
+}
+
 
 /* RSVP Page
 */
-iframe {
-  position: fixed;
-  top: 0; right: 0;
-  bottom: 0; left: 0;
-  width: 100%;
-  height: 100%;
+iframe#rsvp {
+    position: fixed;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .rsvp-section {
 }
 .rsvp-form {
-  margin-top: 100px;
+    margin-top: 100px;
 }
