@@ -32,7 +32,7 @@ jQuery(document).ready(function($){
 
 	function showMap() {
 		if (map.length) {
-			if (!mapShown && map.offset().top <= $(window).scrollTop()+$(window).height()*0.2){
+			if (!mapShown && map.offset().top <= $(window).scrollTop()+$(window).height()*0.6){
 				// map.removeClass('hidden');
 				map.addClass('show');
 				mapShown = true;
