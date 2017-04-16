@@ -184,6 +184,11 @@ div#gift {
 
 /* RSVP Page
 */
+.section.coming-soon {
+    padding-top: 50px;
+    background-color: rgba(91, 146, 121, 0.55);
+}
+
 iframe#rsvp {
     position: fixed;
     top: 0; right: 0;
@@ -193,6 +198,7 @@ iframe#rsvp {
 }
 
 .rsvp-section {
+    display: none;
 }
 .rsvp-form {
     margin-top: 100px;
