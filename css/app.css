@@ -120,13 +120,17 @@ h1 {
 }
 
 @media (max-width: 1000px) {
+    div.title {
+        top: 100px;
+    }
+
     h1 {
         font-size: 65px;
     }
 
     div.subtitle {
         float: left;
-        margin: 250px 30px 30px 30px;;
+        margin: 150px 30px 30px 30px;;
     }
 
     #landing h3 {
@@ -195,6 +199,8 @@ iframe#map.show {
     -moz-animation: cd-bounce-2-inverse 0.6s;
     animation: cd-bounce-2-inverse 0.6s;
 }
+
+@media (max-width: )
 
 div#timeline {
     background-color: rgba(148, 128, 134, 0.76);
