@@ -85,6 +85,14 @@ div.navbar-header {
     /*font-family: 'Poppins', sans-serif;*/
 }
 
+
+@media (max-width: 577px) {
+    #landing {
+        background-image: url('../img/reyes.jpg');
+    }
+}
+
+
 div.title {
     color: #FFFFFF;
     top: 200px;
@@ -92,7 +100,8 @@ div.title {
 
 div.subtitle {
     color: #FFFFFF;
-    top: 350px;
+    float: right;
+    margin: 250px 100px 100px 100px;
 }
 
 div.padding {
@@ -104,9 +113,25 @@ h1 {
     font-size: 80px;
 }
 
+
 #landing h3 {
     font-size: 34px;
     color: #FFFFFF;
+}
+
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 65px;
+    }
+
+    div.subtitle {
+        float: left;
+        margin: 250px 30px 30px 30px;;
+    }
+
+    #landing h3 {
+        font-size: 25px;
+    }
 }
 
 #event {
@@ -131,7 +156,7 @@ h1 {
 }
 
 .event-details-wrapper > img {
-    width: 510px;
+    width: 100%;
 }
 
 .section {
@@ -176,7 +201,22 @@ div#timeline {
 }
 
 .cd-timeline-content > img {
-    width: 460px;
+    width: 100%;
+}
+
+.cd-timeline-content > iframe {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+
+    .cd-timeline-content > p.timeline-content {
+        font-size: 13px;
+    }
+
+    .cd-timeline-content > span.cd-date {
+        font-size: 13px;
+    }
 }
 
 #story {
