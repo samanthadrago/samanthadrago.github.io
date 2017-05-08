@@ -17,6 +17,18 @@ ul.navbar-right {
     margin-top: 5px;
 }
 
+@media (max-width: 880px) {
+    ul.navbar-right {
+        display: none;
+    }
+}
+
+@media (min-width: 880px) {
+    #rsvp-small-screen {
+        display: none;
+    }
+}
+
 .rsvp-button {
     background-color: #A6808C;
     color: #FFFFFF;
