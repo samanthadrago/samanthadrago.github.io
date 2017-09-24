@@ -155,12 +155,16 @@ h1 {
 }
 
 .event-details-wrapper {
-    opacity: 0.8;
+    background: rgba(238, 238, 238, 0.74);
     text-align: center;
 }
 
 .event-details-wrapper > img {
     width: 100%;
+}
+
+.event-details-wrapper.jumbotron.itinerary > p {
+    font-size: 19px;
 }
 
 .section {
@@ -200,10 +204,20 @@ iframe#map.show {
     animation: cd-bounce-2-inverse 0.6s;
 }
 
+div#itinerary {
+    background-color: rgba(148, 128, 134, 0.76);
+}
+
 
 div#timeline {
     background-color: rgba(148, 128, 134, 0.76);
 }
+
+.mauve {
+    color: rgba(148, 128, 134, 1);
+}
+
+
 
 .cd-timeline-content > img {
     width: 100%;
@@ -237,6 +251,16 @@ div#timeline {
 
 div#gift {
     background-color: #948086;
+}
+
+div.not-centered {
+    text-align: left;
+}
+
+span.itinerary-timeline {
+    color: #948086;
+    font-weight: bold;
+    padding: 5px;
 }
 
 /* RSVP Page

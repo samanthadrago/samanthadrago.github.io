@@ -7,7 +7,6 @@
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/app.css">
 		<link href="https://fonts.googleapis.com/css?family=Maven+Pro|Amaranth:700|Julius+Sans+One|Paytone+One|Quicksand|Poppins|Inconsolata" rel="stylesheet">
@@ -32,7 +31,8 @@
 							<ul class="nav navbar-nav">
 								<li><a href="#landing">Welcome</a></li>
 								<li><a href="#event">Wedding Details</a></li>
-								<li><a href="#travel">Travel + Accommodations</a></li>
+								<li><a href="#itinerary">Weekend Itinerary</a></li>
+								<li><a href="#travel">Accommodations + Travel</a></li>
 								<li><a href="#timeline">Seph + Sam</a></li>
 								<li><a href="#gift">Gifts</a></li>
 								<li id="rsvp-small-screen"><a href="/rsvp">RSVP</a></li>
@@ -69,41 +69,78 @@
 						<h1 class="poppins">the wedding</h1>
 					</div>
 					<div class="poppins col-sm-4 jumbotron event-details-wrapper">
-						<p>Join us</p>
-						<h2>Saturday, December 9th, 2017</h2>
+						<p>Join us for our wedding ceremony and reception</p>
+						<h2 class="poppins">Saturday</h2>
+						<h2 class="poppins">December 9th, 2017</h2> 
+						<h2 class="poppins">3:30 PM</h2>
 						<p>at</p>
-						<h2 class="amaranth"><a target="_blank" href="http://bkwinery.com/">Brooklyn Winery</a></h2>
-						<div class="amaranth" id="address">
+						<h2><a target="_blank" href="http://bkwinery.com/">Brooklyn Winery</a></h2>
+						<div id="address">
 							<div>213 N 8th St</div>
 							<div>Brooklyn, NY</div>
 						</div>
-						<br>
-						<p>More details to come!</p>
 					</div>
 					<div class="col-sm-8">
 						<iframe id="map" src="https://www.google.com/maps/embed/v1/place?q=brooklyn+winery&key=AIzaSyB7jF5oEfXcF9 7xNkLsEgP5jIxEHDnETOw" height="450"></iframe>
 					</div>
 				</div>
-				<div id="travel" class="section row">
+				<div id="itinerary" class="section row">
 					<div id="story">
-						<h1 class="poppins">getting (and staying) here</h1>
+						<h1 class="poppins">weekend itinerary</h1>
 					</div>
 					<div class="col-sm-2"></div>
-					<div class="col-sm-8 jumbotron event-details-wrapper">
+					<div class="poppins col-sm-8 jumbotron event-details-wrapper">
+						<h2>Saturday</h2>
+						<div class="not-centered">
+							<p><span class="icon glyphicon glyphicon-heart-empty" aria-hidden="true"></span> <span class="inconsolata itinerary-timeline">3:30 PM</span> Ceremony at Brooklyn Winery</p>
+							<p><span class="icon glyphicon glyphicon-heart-empty" aria-hidden="true"></span> <span class="inconsolata itinerary-timeline">4 PM - 9 PM</span> Dinner reception and dancing at Brooklyn Winery</p>
+							<p><span class="icon glyphicon glyphicon-heart-empty" aria-hidden="true"></span> <span class="inconsolata itinerary-timeline">9 PM - midnight</span> Afterparty at <a target="_blank" href="https://www.google.com/maps/place/Larry+Lawrence/@40.7130584,-73.9595103,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2595f979b7417:0x6bc3a0100f57e067!8m2!3d40.7130584!4d-73.9573216">Larry Lawrence (295 Grand St, Brooklyn, NY 11211)</a></p>
+						</div>
+						<h2>Sunday</h2>
+						<div class="not-centered">
+							<p><span class="icon glyphicon glyphicon-heart-empty" aria-hidden="true"></span> <span class="inconsolata itinerary-timeline">11 AM - 1 PM</span> Farewell brunch - location TBD!</p>
+						</div>
+					</div>
+				</div>
+				<div id="travel" class="section row">
+					<div id="story">
+						<h1 class="poppins">accommodations + travel</h1>
+					</div>
+					<div class="col-sm-1"></div>
+					<div class="poppins col-sm-4 jumbotron event-details-wrapper itinerary">
+						<h2 class="mauve">Acommodations</h2>
 						<p>The wedding and related festivities will take place in Williamsburg, Brooklyn, New York. There are many hotels, restaurants, and shops in the area, and it's easy to get to many other parts of New York City from Williamsburg.</p>
-						<p>We've reserved a block of hotel rooms at the New York Marriott at the Brooklyn Bridge, about 20 minutes by cab or Uber from Brooklyn Winery. There are many other hotels in the vicinity of the venue, as well as in nearby Manhattan. Airbnb is also a popular option for those who prefer it. We suggest booking your lodging soon, as the holidays are a popular time to visit the city!</p>
-						<h3>New York Marriott at the Brooklyn Bridge</h3>
-						<p>The reduced block rate at the Brooklyn Bridge Marriott can be booked through <a href="https://aws.passkey.com/go/DragoKramerRoomBlock">this site</a> or calling (877) 303-0104 and mentioning the Drago Kramer wedding.</p>
+						<p>We've reserved a block of hotel rooms at the New York Marriott at the Brooklyn Bridge, about 20 minutes by cab or Lyft from Brooklyn Winery. There are many other hotels in the vicinity of the venue, as well as in nearby Manhattan. Airbnb is also a popular option for those who prefer it. We suggest booking your lodging soon, as the holidays are a popular time to visit the city!</p>
+						<h3 class="mauve">New York Marriott at the Brooklyn Bridge</h3>
+						<p>The reduced block rate at the Brooklyn Bridge Marriott can be booked through <a href="https://aws.passkey.com/go/DragoKramerRoomBlock">this site</a> or calling (877) 303-0104 and mentioning the Drago Kramer wedding. Book soon as the reduced rate is only available until November 17th.</p>
 						<a href="https://aws.passkey.com/go/DragoKramerRoomBlock"><div class="button"><span>Book Now</span></div></a>
 						<br><br>
-						<h3>The William Vale</h3>
+						<h3 class="mauve">The William Vale</h3>
 						<p>In Williamsburg, 5-10 minute walk to venue</p>
 						<a href="https://www.thewilliamvale.com/"><div class="button"><span>Website</span></div></a>
-						<h3>McCarren Hotel</h3>
+						<h3 class="mauve">McCarren Hotel</h3>
 						<p>In Williamsburg, 5-10 minute walk to venue</p>
 						<a href="http://www.mccarrenhotel.com/"><div class="button"><span>Website</span></div></a>
 					</div>
 					<div class="col-sm-1"></div>
+					<div class="poppins col-sm-5 jumbotron event-details-wrapper itinerary">
+						<h2 class="mauve">Getting Here</h2>
+						<p>The only parking available at Brooklyn Winery is street parking, so we recommend arriving to the venue by subway, cab, or Lyft.</p>
+						<h3 class="mauve">Address</h3>
+						<p>Brooklyn Winery, 213 North 8th Street Brooklyn, NY 11211 (between Driggs Ave. & Roebling St.)</p>
+						<h3 class="mauve">By Subway</h3>
+						<p class="mauve"><em>L Train</em></p>
+						<p>Take the L train to the Bedford Ave. stop (first stop in Brooklyn when coming from Manhattan). Exit at either Bedford or Driggs and walk north to North 8th St. Walk east on North 8th St. and the winery will be on the north side of the street between Driggs Ave. and Roebling St.</p>
+						<p class="mauve"><em>G Train</em></p>
+						<p>Take the G Train to the Metropolitan Ave. stop. Exit subway, walk north on Union Ave. toward Conselyea St., and go under the Brooklyn Queens Expressway (BQE). North. 8th St. will be in front of you and a bit to the left of Union Ave.; follow N. 8th St and walk 3.5 blocks. The winery will be on the north side of the street between Driggs Ave. and Roebling St.</p>
+						<h3 class="mauve">By Car</h3>
+						<p class="mauve"><em>From Manhattan taking Williamsburg Bridge</em></p>
+						<p>From the Williamsburg Bridge take the exit toward I-278 W/Brooklyn Queens Expressway. Turn left onto Havemeyer St. and then a slight left onto South 4th St. Turn right onto Roebling St. and take for .5 miles. Take a left onto North 8th St. The winery will be on the north side of the street between Driggs Ave. and Roebling St.</p>
+						<p class="mauve"><em>Brooklyn Queens Expressway (I-278) Going East</em></p>
+						<p>Take exit 32 toward Metropolitan Ave/Williamsburg Bridge/Manhattan and merge onto Rodney St. Continue onto Meeker Ave. (going north) and take a left at Union Ave. Go under the BQE and take the first left onto Meeker Ave. (going south), the take the first right onto North 8th St. The winery will be on the north side of the street between Driggs Ave. and Roebling St.</p>
+						<p class="mauve"><em>Brooklyn Queens Expressway (I-278) Going West</em></p>
+						<p>Take exit 32B toward Metropolitan Ave. and merge onto Meeker Ave. Take the first right onto North 8th St. The winery will be on the north side of the street between Driggs Ave. and Roebling St.</p>
+					</div>
 				</div>
 				<div id="timeline" class="cssanimations section row">
 					<div id="story">
