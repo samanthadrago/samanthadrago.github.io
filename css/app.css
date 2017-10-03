@@ -85,12 +85,26 @@ div.navbar-header {
     /*font-family: 'Poppins', sans-serif;*/
 }
 
+@media (min-width: 577px) {
+    div#rsvp-small {
+        display: none;
+    }
+}
 
 @media (max-width: 577px) {
     #landing {
         background-image: url('../img/reyes.jpg');
     }
+    iframe#rsvp {
+        display: none;
+    }
+    div#rsvp-small {
+        display: block;
+        margin-top: 100px;
+    }
 }
+
+
 
 
 div.title {
